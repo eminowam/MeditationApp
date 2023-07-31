@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomnavigation"
+    app:startDestination="@id/onBoardingFragment">
+
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.example.myfinalproject.presentation.ui.firstscreen.onBoarding.OnBoardingFragment"
+        android:label="fragment_on_boarding"
+        tools:layout="@layout/fragment_on_boarding">
+        <action
+            android:id="@+id/action_onBoardingGetStartedFragment_to_onBoarding1Fragment"
+            app:destination="@id/onBoarding1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoarding1Fragment"
+        android:name="com.example.myfinalproject.presentation.ui.firstscreen.onBoarding.OnBoarding1Fragment"
+        android:label="fragment_on_boarding1"
+        tools:layout="@layout/fragment_on_boarding1">
+        <action
+            android:id="@+id/action_onBoarding1Fragment_to_onBoarding2Fragment"
+            app:destination="@id/onBoarding2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoarding2Fragment"
+        android:name="com.example.myfinalproject.presentation.ui.firstscreen.onBoarding.OnBoarding2Fragment"
+        android:label="fragment_on_boarding2"
+        tools:layout="@layout/fragment_on_boarding2">
+        <action
+            android:id="@+id/action_onBoarding2Fragment_to_onBoarding3Fragment"
+            app:destination="@id/onBoarding3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoarding3Fragment"
+        android:name="com.example.myfinalproject.presentation.ui.firstscreen.onBoarding.OnBoarding3Fragment"
+        android:label="fragment_on_boarding3"
+        tools:layout="@layout/fragment_on_boarding3" >
+        <action
+            android:id="@+id/action_onBoarding3Fragment_to_createAccauntFragment"
+            app:destination="@id/createAccauntFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createAccauntFragment"
+        android:name="com.example.myfinalproject.presentation.ui.firstscreen.signUp.CreateAccountFragment"
+        android:label="fragment_create_accaunt"
+        tools:layout="@layout/fragment_create_account" >
+        <action
+            android:id="@+id/action_createAccauntFragment_to_completeAccauntFragment"
+            app:destination="@id/completeAccauntFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/completeAccauntFragment"
+        android:name="com.example.myfinalproject.presentation.ui.firstscreen.signUp.CompleteAccountFragment"
+        android:label="fragment_complete_accaunt"
+        tools:layout="@layout/fragment_complete_account" >
+        <action
+            android:id="@+id/action_completeAccauntFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.myfinalproject.presentation.ui.firstscreen.signUp.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_homeScreenFragment"
+            app:destination="@id/homeScreenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeScreenFragment"
+        android:name="com.example.myfinalproject.presentation.ui.homescreen.homescreenmain.HomeScreenFragment"
+        android:label="fragment_home_screen"
+        tools:layout="@layout/fragment_home_screen" />
+</navigation>

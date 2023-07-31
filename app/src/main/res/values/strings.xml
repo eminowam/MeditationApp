@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MyFinalProject</string>
+    <string name="_name_app_on_boarding">Wellness</string>
+    <string name="_fit_app_on_boarding">Fit</string>
+    <string name="_desc_on_boarding">Everyone Can Lead a Healthy Lifestyle</string>
+    <string name="_healthy_lifestyle">Healthy lifestyle</string>
+    <string name="_healthy_desc_on">Track your physical activity, control your nutrition, get helpful health tips and relax with meditations</string>
+    <string name="tracker">Track your physical activity</string>
+    <string name="tracker_desc">Improve your health and wellbeing with our app! Track your physical activity, track your steps with a pedometer</string>
+    <string name="meditation_on_boarding">Relax with meditation</string>
+    <string name="meditation_on_boarding_desc">With helpful tips for a healthy lifestyle and deep meditations, you can achieve harmony between body and mind</string>
+    <string name="hey_there">Hey there,</string>
+    <string name="create_an_accaunt">Create an Account</string>
+    <string name="already_have_an_account">Already have an accaunt?</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_desc">You are all set now, let’s reach your goals together with us</string>
+    <string name="complete_profile">Let’s complete your profile</string>
+    <string name="complete_profile_desc">It will help us to know more about you!!</string>
+    <string name="text_medit_icon">Meditation for heart</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="yor_weight">Your Weight</string>
+    <string name="yor_height">Your Height</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="categories">Категории Здоровья </string>
+    <string name="main_text">Здоровье </string>
+    <string name="choose_gender">Choose Gender </string>
+    <string name="profile">Profile </string>
+    <string name="profile_name">Aimeerim Eminova</string>
+    <string name="profile_data">Данные здоровья </string>
+
+
+    <string name="height_1">167cm</string>
+    <string name="height">Height</string>
+    <string name="steps">Steps</string>
+</resources>
